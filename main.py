@@ -8,7 +8,7 @@ if(len(address) >= 17):
 else:
     print("¡The mac address does not appear to be valid!")
 
-if(len(interface) <= 3):
+if(len(interface) >= 3):
     pass
 else:
     print("¡The interface appears to be invalid!")
